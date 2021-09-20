@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 CitadelDatathon
  
 ==============================
@@ -57,13 +56,3 @@ Project Organization
 --------
 
 =======
-# CitadelDatathon
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-├── notebooks          <- Jupyter notebooks.
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
->>>>>>> 816d7962bb58539fad7c6c444f50da9804341a89
