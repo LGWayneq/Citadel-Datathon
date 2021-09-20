@@ -1,6 +1,4 @@
-CitadelDatathon
- 
-==============================
+#CitadelDatathon
 
 Predict the future potential of up and coming footballers with Machine Learning.
 
@@ -9,12 +7,10 @@ Project Organization
 
     ├── README.md          
     ├── data
-    │   ├── League Data       <- Data from third party sources.
-    │   ├── player        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │   ├── citadel data   <- Player data provided by Citadel.
+    │   ├── player         <- Player data from third party sources.
+    │   ├── league data    <- League data from third party sources.
+    │   └── pkl files  
     │
     ├── notebooks          <- Jupyter notebooks. 
     │
