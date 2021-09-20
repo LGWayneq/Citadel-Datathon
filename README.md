@@ -1,4 +1,4 @@
-<head>Citadel Datathon</head>
+<h1>Citadel Datathon</h1>
 
 For the datathon, we were required to discover and analyse patterns in football team performance and match outcomes, and make recommendations about optimal club construction based on data analysis.
 
