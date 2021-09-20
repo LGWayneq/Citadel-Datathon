@@ -1,69 +1,24 @@
-<<<<<<< HEAD
-CitadelDatathon
- 
-==============================
+<h1>Citadel Datathon</h1>
 
-Predict the future potential of up and coming footballers with Machine Learning.
+For the datathon, we were required to discover and analyse patterns in football team performance and match outcomes, and make recommendations about optimal club construction based on data analysis.
+
+Extensive exploratory data analysis was first conducted to evaluate possible relationships and correlations between various variables in the provided datasets. 
+We found the player potential data to be particularly interesting, thus we decided to explore its usefulness in helping football clubs optimise their teams. To do so, we collected extra data on football players such as their salary, as well as league data. This allowed us to obtain greater insights on the effects of the player potential variable.
+Finally, we decided to create a model to predict the future potential of up and coming footballers with Machine Learning.
 
 Project Organization
 ------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md          
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── citadel data   <- Player data provided by Citadel.
+    │   ├── player         <- Player data from third party sources.
+    │   ├── league data    <- League data from third party sources.
+    │   └── pkl files  
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── notebooks          <- Jupyter notebooks. 
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
+    └── references         <- Data dictionaries, manuals, and all other explanatory materials.
 
 
 --------
-
-=======
-# CitadelDatathon
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-├── notebooks          <- Jupyter notebooks.
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
->>>>>>> 816d7962bb58539fad7c6c444f50da9804341a89
