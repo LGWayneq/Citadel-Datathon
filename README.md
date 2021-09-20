@@ -1,3 +1,5 @@
+#Project Organization
+
 For the datathon, we were required to discover and analyse patterns in football team performance and match outcomes, and make recommendations about optimal club construction based on data analysis.
 
 Extensive exploratory data analysis was first conducted to evaluate possible relationships and correlations between various variables in the provided datasets. 
